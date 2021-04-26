@@ -3,6 +3,7 @@ const Show = require("../models/show");
 const mongoose = require("mongoose");
 const client = require("../helpers/redis.js");
 const Booking = require("../models/booking");
+const Theater = require("../models/theater")
 const moment = require("moment");
 const validators = require("../helpers/validators");
 var url = require("url");
