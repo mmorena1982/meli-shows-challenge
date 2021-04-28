@@ -27,6 +27,7 @@ REDIS_AUTH
 ## Testing
 
 The project is using `swagger-jsdoc` and `swagger-ui-express`. 
+Please send Header `Accept-Encoding: gzip` to enable gzip compression.
 You can see the availbale API operations at the following URL: `http://localhost:{PORT}/api-docs`.
 Replace `localhost` with your current domain or IP in case it is necessary.
 
