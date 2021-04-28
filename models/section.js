@@ -10,7 +10,7 @@ const sectionSchema = new Schema({
         type: Number,
         required: true
     }
-}, { timestamps: true });
+});
 
 const Section = mongoose.model('Section', sectionSchema);
 module.exports = Section;
